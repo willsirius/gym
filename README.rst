@@ -57,6 +57,7 @@ Install Prerequisite:
 mujococo-py (The original install instruction in thie repository doesn't work, will trigger error: ERROR: Invalid activation key):
 
 .. code:: shell
+
 	git clone https://github.com/openai/mujoco-py.git
 	cd mujoco-py
 	sudo apt-get update
@@ -66,16 +67,19 @@ mujococo-py (The original install instruction in thie repository doesn't work, w
 	
 Install mesa(The original install instruction in thie repository doesn't work):
 .. code:: shell
+
 	sudo apt-get install libosmesa6-dev
 
 Then install gym:
 .. code:: shell
+
 	  git clone https://github.com/openai/gym.git
 	  cd gym
 	  pip3 install -e '.[all]'
 	  
 If you encounter problem with 'x86_64-linux-gnu-gcc':
 .. code:: shell	  
+
 	sudo apt-get install python3 python-dev python3-dev \
      	build-essential libssl-dev libffi-dev \
      	libxml2-dev libxslt1-dev zlib1g-dev \
