@@ -93,7 +93,7 @@ the
 `instructions <https://github.com/openai/mujoco-py#obtaining-the-binaries-and-license-key>`_
 in the ``mujoco-py`` package for help.
 
-Once you're ready to install everything, run ``pip install -e '.[all]'`` (or ``pip install 'gym[all]'``).
+Once you're ready to install everything, run ``pip3 install -e '.[all]'`` (or ``pip3 install 'gym[all]'``).
 
 Supported systems
 -----------------
