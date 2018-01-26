@@ -46,7 +46,7 @@ should know:
 Installation
 ============
 
-Zhaolun's Update:
+**Zhaolun's Update**:
 
 Requirement:
 Ubuntu 16.04
@@ -66,11 +66,13 @@ mujococo-py (The original install instruction in thie repository doesn't work, w
 	sudo python3 setup.py install
 	
 Install mesa(The original install instruction in thie repository doesn't work):
+
 .. code:: shell
 
 	sudo apt-get install libosmesa6-dev
 
 Then install gym:
+
 .. code:: shell
 
 	  git clone https://github.com/openai/gym.git
@@ -78,6 +80,7 @@ Then install gym:
 	  pip3 install -e '.[all]'
 	  
 If you encounter problem with 'x86_64-linux-gnu-gcc':
+
 .. code:: shell	  
 
 	sudo apt-get install python3 python-dev python3-dev \
@@ -85,7 +88,7 @@ If you encounter problem with 'x86_64-linux-gnu-gcc':
      	libxml2-dev libxslt1-dev zlib1g-dev \
      	python-pip
 	
-End of Zhaolun's Update
+**End of Zhaolun's Update**
 
 
 You can perform a minimal install of ``gym`` with:
