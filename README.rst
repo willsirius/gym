@@ -50,9 +50,8 @@ Installation
 
 Requirement:
 
-Ubuntu 16.04
-
-Python 3.5 (3.4, 3.6 won't work)
+*Ubuntu 16.04
+*Python 3.5 (3.4, 3.6 won't work)
 
 Install Prerequisite:
 
