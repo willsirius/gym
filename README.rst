@@ -46,6 +46,44 @@ should know:
 Installation
 ============
 
+Zhaolun's Update:
+
+Requirement:
+Ubuntu 16.04
+Python 3.5 (3.4, 3.6 won't work)
+
+Install Prerequisite:
+
+mujococo-py (The original install instruction in thie repository doesn't work, will trigger error: ERROR: Invalid activation key):
+
+.. code:: shell
+	git clone https://github.com/openai/mujoco-py.git
+	cd mujoco-py
+	sudo apt-get update
+	sudo apt-get install libgl1-mesa-dev libgl1-mesa-glx libosmesa6-dev python3-pip python3-numpy python3-scipy
+	pip3 install -r requirements.txt
+	sudo python3 setup.py install
+	
+Install mesa(The original install instruction in thie repository doesn't work):
+.. code:: shell
+	sudo apt-get install libosmesa6-dev
+
+Then install gym:
+.. code:: shell
+	  git clone https://github.com/openai/gym.git
+	  cd gym
+	  pip3 install -e '.[all]'
+	  
+If you encounter problem with 'x86_64-linux-gnu-gcc':
+.. code:: shell	  
+	sudo apt-get install python3 python-dev python3-dev \
+     	build-essential libssl-dev libffi-dev \
+     	libxml2-dev libxslt1-dev zlib1g-dev \
+     	python-pip
+	
+End of Zhaolun's Update
+
+
 You can perform a minimal install of ``gym`` with:
 
 .. code:: shell
